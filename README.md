@@ -1,6 +1,8 @@
-SpheRayDemo, 2005-2015
-Andy Ganse, Applied Physics Laboratory, University of Washington
-aganse@apl.washington.edu
+![screenshot](screenshot1.png)
+
+SpheRayDemo, 2005-2015  
+Andy Ganse, Applied Physics Laboratory, University of Washington  
+aganse@apl.washington.edu  
 
 ----------------------------------------------------------------
 Dependencies: 
@@ -12,6 +14,7 @@ Dependencies:
 
 * edu.washington.apl.aganse.dataTools:
   https://github.com/aganse/dataTools
+
 ----------------------------------------------------------------
 
 SpheRayDemo is a "spherical raytrace demonstration", an interactive,
@@ -32,7 +35,8 @@ of the Earth.)
 
 You can download and compile the source, or just download and use
 the application jarfile, spheraydemo.jar.  Run it at commandline via:
-> java -jar spheraydemo.jar
+
+`> java -jar spheraydemo.jar`
 
 The class is designed to be run as either an independent application
 or as a webapge applet.  Please see my webpages on this app (and for
@@ -41,12 +45,11 @@ http://staff.washington.edu/aganse/helioseis/intro.html
 http://staff.washington.edu/aganse/helioseis/helioseis_rtapplet.html
 The small SpheRayDemo.html file (or the page source of the applet
 webpage above for that matter) demonstrates calling the code as an
-applet.
+applet.  (Alas this code is poorly commented, sorry... on the to-do list.)
 
 See screenshot1.png or the webapges above for what the app looks like.
-Quick running instructions:
-To bring up app from commandline run:  java -jar spheraydemo.jar
-Right-click on the WaveVel vs Depth plot (left) and choose say
+Quick running instructions:  after starting the application via above,
+right-click on the WaveVel vs Depth plot (left) and choose say
 "B-P 2000 Model" velocity profile from menu (you can also click in
 your own points, either from scratch or adding to the chosen menu
 profile).  Then click the swirly-arrows button in toolbar to run
@@ -56,5 +59,4 @@ Note too the "edit" button at top left - artistically speaking, the
 greater the "max iterations" value the closer the result looks to
 a Spirograph picture!  See e.g. screenshot2.png.
 
-(Alas the code is poorly commented, sorry...)
-
+![looks like Spirograph!](screenshot2.png)
