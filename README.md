@@ -43,6 +43,7 @@ or as a webapge applet.  Please see my webpages on this app (and for
 an intro to the topic of helioseismology) for more information:
 * http://staff.washington.edu/aganse/helioseis/intro.html
 * http://staff.washington.edu/aganse/helioseis/helioseis_rtapplet.html
+
 The small SpheRayDemo.html file (or the page source of the applet
 webpage above for that matter) demonstrates calling the code as an
 applet.  (Alas this code is poorly commented, sorry... on the to-do list.)
